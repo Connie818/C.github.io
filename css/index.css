@@ -1,13 +1,47 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
-    color: red;
-    position: relative;
-    background: transparent;
-}
 
-body::before {
-    position: fixed;
-    background:url(/img/home_img.jpg);
+ *{
+     margin:0;
+     padding:0;
+     font-family: 'Poppins', sans-serif;
 
-}
+ }
+ /* Navbar */
+ .navba-nav{
+     font-size:18px;
+ 
+ }
+ .navbar{
+     position: sticky;
+     top: 0;
+     z-index: 1;
+ }
+ /* Button */
+ .btn:hover {
+     color:white
+ }
+ /* Progress Bar */
+ .progress {
+     height: 30px;
+     border-radius: 50px;
+     transition: all 0.5s ease;
+ }
+ .progress:hover{
+     transform: scale(1.1);
+ }
+
+
+ /* Card */
+ .card {
+     transition: all 0.5s ease;
+ }
+ .card img {
+     height: 100px;
+     width: 100px;
+     margin: auto;
+ }
+
+ .card:hover {
+     transform: matrix(1.1);
+     box-shadow: 1px 2px 10px black;
+
+ }
