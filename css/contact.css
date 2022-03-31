@@ -204,13 +204,13 @@ button.red {
   }
 
     
-@media screen and (min-width:1200px){
-    /* .footer{
-    text-align:left;
+@media screen (max-width:1000px){
+    .footer{
+    text-align:center;
     padding:5%;
 } */
 
-/* .footer .rows ul li{
+.footer .rows ul li{
     display:block;
     margin:10px 0px;
     text-align:center;
@@ -219,4 +219,4 @@ button.red {
 .footer .rows a i{
     margin:0% 3%;
 }
-} */
+}
