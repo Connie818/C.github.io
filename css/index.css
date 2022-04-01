@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Poppins:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&family=Palette+Mosaic&family=Poppins:wght@700&family=Source+Sans+Pro:wght@200&display=swap');
 html {
     margin:0;
    width:100%;
@@ -7,6 +7,10 @@ html {
 
 }
 
+.about .skills .portfolio{
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
  /* Navbar */
  .navba-nav{
      font-size:18px;
@@ -106,7 +110,15 @@ button.unit .icon {
   padding:30px;
   padding-top: 10px;
 }
+.port{
+  display: flex;
+   justify-content: center;
+}
+.port img{
+  display: flex;
+ justify-content: center;
 
+}
 
 
  /* Card */
@@ -148,10 +160,13 @@ button.unit .icon {
 
  }
 
- @media only screen and (max-width:950px){
+ @media only screen and (max-width:1000px){
         .both {
           display: flex;
-          flex-direction: column;
-          
+          flex-direction: column;    
+        }
+        .portfolio{
+          display: flex;
+          justify-content: center;
         }
 }
