@@ -160,7 +160,7 @@ button.unit .icon {
 
  }
 
- @media only screen and (max-width:1000px){
+ @media only screen and (max-width:920px){
         .both {
           display: flex;
           flex-direction: column;    
