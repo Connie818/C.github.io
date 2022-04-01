@@ -202,21 +202,3 @@ button.red {
       top: -10%;
     }
   }
-
-    
-@media screen (max-width:1000px){
-    .footer{
-    text-align:center;
-    padding:5%;
-} */
-
-.footer .rows ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:center;
-}
-
-.footer .rows a i{
-    margin:0% 3%;
-}
-}
